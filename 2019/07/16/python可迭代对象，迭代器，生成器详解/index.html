@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Ramsey">
 <meta property="og:description" content="可迭代对象(iterable)python中的任意对象，只要定义了返回迭代器的__iter__()方法或者定义了可以支持下标索引的__getitem__()方法，那么它就是迭代器，简单来说可迭代对象就是能提供迭代器的对象。 常见的可迭代对象包括:1.集合，序列(list，dict,tuple,set,str)2.文件系统3.定义了__iter__()方法的对象(前提是__iter__函数实现必须是">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-21T16:19:56.319Z">
+<meta property="og:updated_time" content="2019-07-24T14:48:29.784Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python可迭代对象，迭代器，生成器详解">
 <meta name="twitter:description" content="可迭代对象(iterable)python中的任意对象，只要定义了返回迭代器的__iter__()方法或者定义了可以支持下标索引的__getitem__()方法，那么它就是迭代器，简单来说可迭代对象就是能提供迭代器的对象。 常见的可迭代对象包括:1.集合，序列(list，dict,tuple,set,str)2.文件系统3.定义了__iter__()方法的对象(前提是__iter__函数实现必须是">
@@ -373,7 +373,7 @@
   <i class="fa fa-calendar-o"></i>
 </span>
 <span class="post-meta-item-text">字数统计:</span>
-<span class="post-count">245(字)</span>
+<span class="post-count">249(字)</span>
 </span>
 
 <span class="post-time">
@@ -422,7 +422,7 @@
       
         <h1 id="可迭代对象-iterable"><a href="#可迭代对象-iterable" class="headerlink" title="可迭代对象(iterable)"></a>可迭代对象(iterable)</h1><p>python中的任意对象，只要定义了返回迭代器的__iter__()方法或者定义了可以支持下标索引的__getitem__()方法，那么它就是迭代器，简单来说可迭代对象就是能提供迭代器的对象。</p>
 <h2 id="常见的可迭代对象包括"><a href="#常见的可迭代对象包括" class="headerlink" title="常见的可迭代对象包括:"></a>常见的可迭代对象包括:</h2><p>1.集合，序列(list，dict,tuple,set,str)<br>2.文件系统<br>3.定义了__iter__()方法的对象(前提是__iter__函数实现必须是正确的)。<br>4.定义了__getitem__()方法的对象。只定义了__getitem__()方法的对象可以通过__iter__()函数转化为迭代器但其本身并不是可迭代对象。因此一个对象能在for循环里运行，并不一定是可迭代对象。<br><a id="more"></a><br>关于1,2两类可迭代对象我们可通过instance函数来验证。例如 print(isinstance([1,2], Iterable)//true 列表是可迭代的。</p>
-<p>3,4两类可迭代对象可以自己实现进行验证。</p>
+<p>3,4两类可迭代对象可以自己实现进行验证。<br>未完，待续。。。。</p>
 
       
     </div>
