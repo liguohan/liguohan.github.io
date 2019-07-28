@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[python 列表生成式|字典生成式]]></title>
     <url>%2F2019%2F07%2F28%2Fpython-%E5%88%97%E8%A1%A8%E7%94%9F%E6%88%90%E5%BC%8F-%E5%AD%97%E5%85%B8%E7%94%9F%E6%88%90%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[列表生成式列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))来实现:12&gt;&gt;&gt; list(range(1,6))[1, 2, 3, 4, 5] 但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环来实现:123456&gt;&gt;&gt; L=[]&gt;&gt;&gt; for i in range(1,6):... L.append(i+i)...&gt;&gt;&gt; L[2, 4, 6, 8, 10] 上述实现太麻烦了,有没有更好的实现方式？答案就是列表生成式:1234&gt;&gt;&gt; [x for x in range(1,6)][1, 2, 3, 4, 5]&gt;&gt;&gt; [x+x for x in range(1,6)][2, 4, 6, 8, 10] 列表生成式的写法很简单:要生成的元素(x+x)写在前面,后面跟for语句.列表生成式的for语句还可以跟if语句，起过滤作用，比如我们想打印1到之间的偶数：12&gt;&gt;&gt; [x for x in range(1,11) if x%2==0][2, 4, 6, 8, 10]]]></content>
+    <content type="text"><![CDATA[列表生成式列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))来实现:12&gt;&gt;&gt; list(range(1,6))[1, 2, 3, 4, 5] 但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环来实现:123456&gt;&gt;&gt; L=[]&gt;&gt;&gt; for i in range(1,6):... L.append(i+i)...&gt;&gt;&gt; L[2, 4, 6, 8, 10] 上述实现太麻烦了,有没有更好的实现方式？答案就是列表生成式:1234&gt;&gt;&gt; [x for x in range(1,6)][1, 2, 3, 4, 5]&gt;&gt;&gt; [x+x for x in range(1,6)][2, 4, 6, 8, 10] 列表生成式的写法很简单:要生成的元素(x+x)写在前面,后面跟for语句.列表生成式的for语句还可以跟if语句，起过滤作用，比如我们想打印1到10之间的偶数：12&gt;&gt;&gt; [x for x in range(1,11) if x%2==0][2, 4, 6, 8, 10]]]></content>
       <categories>
         <category>python</category>
       </categories>
