@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="数据结构与算法,">
+  <meta name="keywords" content="python,">
 
 
 
@@ -79,22 +79,18 @@
 
 
 
-<meta name="description" content="传说传说越南河内某间寺院有三根银棒，上串 64 个金盘。寺院里的僧侣依照一个古老的预言，以特定规则移动这些盘子；预言说当这些盘子移动完毕，世界就会灭亡。这个传说叫做梵天寺之塔问题（Tower of Brahma puzzle）。盘子移动的规则如下： 1.每次只能移动一个圆盘。 2.大盘不能叠在小盘上面。 汉诺塔问题由此得来，到底该如何移动盘子？最少需要移动多少次呢？ 分析为了简化分析的过程，以三个">
-<meta name="keywords" content="数据结构与算法">
+<meta name="description" content="#列表生成式 列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))test1.py12&amp;gt;&amp;gt;&amp;gt; list(range(1,6))[1, 2, 3, 4, 5] 但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环:test2.py123456&amp;gt;&amp;gt;&amp;gt; L=[]&amp;">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="经典算法-汉诺塔问题">
-<meta property="og:url" content="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/index.html">
+<meta property="og:title" content="python 列表生成式|字典生成式">
+<meta property="og:url" content="http://yoursite.com/2019/07/28/python-列表生成式-字典生成式/index.html">
 <meta property="og:site_name" content="Ramsey">
-<meta property="og:description" content="传说传说越南河内某间寺院有三根银棒，上串 64 个金盘。寺院里的僧侣依照一个古老的预言，以特定规则移动这些盘子；预言说当这些盘子移动完毕，世界就会灭亡。这个传说叫做梵天寺之塔问题（Tower of Brahma puzzle）。盘子移动的规则如下： 1.每次只能移动一个圆盘。 2.大盘不能叠在小盘上面。 汉诺塔问题由此得来，到底该如何移动盘子？最少需要移动多少次呢？ 分析为了简化分析的过程，以三个">
+<meta property="og:description" content="#列表生成式 列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))test1.py12&amp;gt;&amp;gt;&amp;gt; list(range(1,6))[1, 2, 3, 4, 5] 但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环:test2.py123456&amp;gt;&amp;gt;&amp;gt; L=[]&amp;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/hanoi.png">
-<meta property="og:image" content="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/hanoi1.png">
-<meta property="og:image" content="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/hanoi2.png">
-<meta property="og:updated_time" content="2019-07-21T16:20:12.503Z">
+<meta property="og:updated_time" content="2019-07-28T06:41:46.188Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="经典算法-汉诺塔问题">
-<meta name="twitter:description" content="传说传说越南河内某间寺院有三根银棒，上串 64 个金盘。寺院里的僧侣依照一个古老的预言，以特定规则移动这些盘子；预言说当这些盘子移动完毕，世界就会灭亡。这个传说叫做梵天寺之塔问题（Tower of Brahma puzzle）。盘子移动的规则如下： 1.每次只能移动一个圆盘。 2.大盘不能叠在小盘上面。 汉诺塔问题由此得来，到底该如何移动盘子？最少需要移动多少次呢？ 分析为了简化分析的过程，以三个">
-<meta name="twitter:image" content="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/hanoi.png">
+<meta name="twitter:title" content="python 列表生成式|字典生成式">
+<meta name="twitter:description" content="#列表生成式 列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))test1.py12&amp;gt;&amp;gt;&amp;gt; list(range(1,6))[1, 2, 3, 4, 5] 但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环:test2.py123456&amp;gt;&amp;gt;&amp;gt; L=[]&amp;">
 
 
 
@@ -124,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/28/python-列表生成式-字典生成式/">
 
 
 
 
 
-  <title>经典算法-汉诺塔问题 | Ramsey</title>
+  <title>python 列表生成式|字典生成式 | Ramsey</title>
   
 
 
@@ -309,7 +305,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/02/经典算法-汉诺塔问题/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/28/python-列表生成式-字典生成式/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ramsey">
@@ -326,7 +322,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">经典算法-汉诺塔问题</h1>
+          <h1 class="post-title" itemprop="name headline">python 列表生成式|字典生成式</h1>
         
 
         <div class="post-meta">
@@ -338,8 +334,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-02T14:23:28+08:00">
-                2019-06-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-28T14:25:52+08:00">
+                2019-07-28
               </time>
             
 
@@ -361,8 +357,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/数据结构与算法/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
+                  <a href="/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
                   </a>
                 </span>
 
@@ -377,7 +373,7 @@
   <i class="fa fa-calendar-o"></i>
 </span>
 <span class="post-meta-item-text">字数统计:</span>
-<span class="post-count">589(字)</span>
+<span class="post-count">107(字)</span>
 </span>
 
 <span class="post-time">
@@ -386,7 +382,7 @@
 <i class="fa fa-calendar-o"></i>
 </span>
 <span class="post-meta-item-text">阅读时长≈</span>
-<span class="post-count">2(分)</span>
+<span class="post-count">1(分)</span>
 </span>
           
             
@@ -395,8 +391,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/06/02/经典算法-汉诺塔问题/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/02/经典算法-汉诺塔问题/" itemprop="commentCount"></span>
+                <a href="/2019/07/28/python-列表生成式-字典生成式/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/28/python-列表生成式-字典生成式/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -424,19 +420,10 @@
       
 
       
-        <h1 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h1><p>传说越南河内某间寺院有三根银棒，上串 64 个金盘。寺院里的僧侣依照一个古老的预言，以特定规则移动这些盘子；预言说当这些盘子移动完毕，世界就会灭亡。这个传说叫做梵天寺之塔问题（Tower of Brahma puzzle）。盘子移动的规则如下：</p>
-<p>1.每次只能移动一个圆盘。</p>
-<p>2.大盘不能叠在小盘上面。</p>
-<p>汉诺塔问题由此得来，到底该如何移动盘子？最少需要移动多少次呢？</p>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>为了简化分析的过程，以三个金盘为例：<br><img src="/2019/06/02/经典算法-汉诺塔问题/hanoi.png" alt=""></p>
-<a id="more"></a>
-<p>汉诺塔问题最终的目的是将银棒A上的金盘借助银棒B移动到银棒C，可以把这个复杂问题简化为三步：</p>
-<p>1.将银棒A上n-1个金盘借助银棒C转移到银棒B</p>
-<p>2.将银棒A上第n个金盘转移到银棒C</p>
-<p>3.将银棒B上n-1个金盘借助银棒A转移到银棒C</p>
-<p>由以上分析可知，我们能把一个大问题转化为若干个相似的小问题，用递归比较合适。递归的基本思想是把规模大的问题转化为规模小的相似的子问题来解决。在函数实现时，因为解决大问题的方法和解决小问题的方法往往是同一个方法，所以就产生了函数调用它自身的情况。另外这个解决问题的函数必须有明显的结束条件，这样就不会产生无限递归的情况了。</p>
-<p>代码如下：<br><figure class="highlight c++"><figcaption><span>hanoi.cpp</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">hanoi</span><span class="params">(<span class="keyword">int</span> num,<span class="keyword">char</span> src,<span class="keyword">char</span> buf,<span class="keyword">char</span> dest)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> <span class="keyword">if</span>(num==<span class="number">0</span>)</span><br><span class="line">   <span class="keyword">return</span>;</span><br><span class="line"> <span class="keyword">else</span></span><br><span class="line">   &#123;</span><br><span class="line">    hanoi(num<span class="number">-1</span>,src,dest,buf);</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"将盘子"</span>&lt;&lt;num&lt;&lt;<span class="string">"从柱子"</span>&lt;&lt;src&lt;&lt;<span class="string">"转移到柱子"</span>&lt;&lt;dest&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    hanoi(num<span class="number">-1</span>,buf,src,dest);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"> <span class="keyword">int</span> num;</span><br><span class="line"> <span class="built_in">cin</span>&gt;&gt;num;</span><br><span class="line"> hanoi(num,<span class="string">'A'</span>,<span class="string">'B'</span>,<span class="string">'C'</span>);</span><br><span class="line"></span><br><span class="line"> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>执行结果：<br><img src="/2019/06/02/经典算法-汉诺塔问题/hanoi1.png" alt=""><br><img src="/2019/06/02/经典算法-汉诺塔问题/hanoi2.png" alt=""><br>通过程序执行结果，不难看出如果有n个盘子，至少要移动2^n-1次。若传说属实，僧侣们需要  2^64-1步才能完成这个任务；若他们每秒可完成一个盘子的移动，就需要 5849 亿年才能完成。整个宇宙现在也不过 137 亿年。</p>
+        <p>#列表生成式</p>
+<p>列表生成式是python中强大的用来创建list的表达式。</p>
+<p>如果想生成list[1,2,3,4,5],可以用list(range(1,6))<br><figure class="highlight python"><figcaption><span>test1.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list(range(<span class="number">1</span>,<span class="number">6</span>))</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br></pre></td></tr></table></figure></p>
+<p>但如果要生成[1+1,2+2,3+3,4+4,5+5]呢？可以使用循环:<br><figure class="highlight python"><figcaption><span>test2.py</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>L=[]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>,<span class="number">6</span>):</span><br><span class="line"><span class="meta">... </span>    L.append(i+i)</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>L</span><br><span class="line">[<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>]</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -454,7 +441,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/数据结构与算法/" rel="tag"># 数据结构与算法</a>
+            <a href="/tags/python/" rel="tag"># python</a>
           
         </div>
       
@@ -467,8 +454,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/01/c语言缓冲区详解/" rel="next" title="c语言缓冲区详解">
-                <i class="fa fa-chevron-left"></i> c语言缓冲区详解
+              <a href="/2019/07/16/python可迭代对象，迭代器，生成器详解/" rel="next" title="python可迭代对象，迭代器，生成器详解">
+                <i class="fa fa-chevron-left"></i> python可迭代对象，迭代器，生成器详解
               </a>
             
           </div>
@@ -476,10 +463,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/08/经典算法-八皇后问题/" rel="prev" title="经典算法-八皇后问题">
-                经典算法-八皇后问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -534,17 +517,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -606,22 +580,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#传说"><span class="nav-number">1.</span> <span class="nav-text">传说</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分析"><span class="nav-number">2.</span> <span class="nav-text">分析</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
