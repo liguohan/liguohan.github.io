@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Ramsey">
 <meta property="og:description" content="列表生成式列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))来实现:12&amp;gt;&amp;gt;&amp;gt; list(range(1,6))[1, 2, 3, 4, 5]">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-28T07:14:37.009Z">
+<meta property="og:updated_time" content="2019-07-28T07:18:27.585Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python 列表生成式|字典生成式">
 <meta name="twitter:description" content="列表生成式列表生成式是python中强大的用来创建list的表达式。 如果想生成list[1,2,3,4,5],可以用list(range(1,6))来实现:12&amp;gt;&amp;gt;&amp;gt; list(range(1,6))[1, 2, 3, 4, 5]">
@@ -373,7 +373,7 @@
   <i class="fa fa-calendar-o"></i>
 </span>
 <span class="post-meta-item-text">字数统计:</span>
-<span class="post-count">307(字)</span>
+<span class="post-count">318(字)</span>
 </span>
 
 <span class="post-time">
@@ -427,6 +427,7 @@
 <p>上述实现太麻烦了,有没有更好的实现方式？答案就是列表生成式:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>[x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>,<span class="number">6</span>)]</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[x+x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>,<span class="number">6</span>)]</span><br><span class="line">[<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>]</span><br></pre></td></tr></table></figure></p>
 <p>列表生成式的写法很简单:要生成的元素(x+x)写在前面,后面跟for语句.<br>列表生成式的for循环还可以跟if语句，起过滤作用，比如我们想打印1到10之间的偶数：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>[x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>,<span class="number">11</span>) <span class="keyword">if</span> x%<span class="number">2</span>==<span class="number">0</span>]</span><br><span class="line">[<span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>, <span class="number">8</span>, <span class="number">10</span>]</span><br></pre></td></tr></table></figure></p>
 <p>列表生成式还可以使用两层for循环:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>[x+y <span class="keyword">for</span> x <span class="keyword">in</span> <span class="string">"hello"</span> <span class="keyword">for</span> y <span class="keyword">in</span> <span class="string">"world"</span>]</span><br><span class="line">[<span class="string">'hw'</span>, <span class="string">'ho'</span>, <span class="string">'hr'</span>, <span class="string">'hl'</span>, <span class="string">'hd'</span>, <span class="string">'ew'</span>, <span class="string">'eo'</span>, <span class="string">'er'</span>, <span class="string">'el'</span>, <span class="string">'ed'</span>, <span class="string">'lw'</span>, <span class="string">'lo'</span>, <span class="string">'lr'</span>, <span class="string">'ll'</span>, <span class="string">'ld'</span>, <span class="string">'lw'</span>, <span class="string">'lo'</span>, <span class="string">'lr'</span>, <span class="string">'ll'</span>, <span class="string">'ld'</span>, <span class="string">'ow'</span>, <span class="string">'oo'</span>, <span class="string">'or'</span>, <span class="string">'ol'</span>, <span class="string">'od'</span>]</span><br></pre></td></tr></table></figure></p>
+<p>”hello”和“world”的全排列结果如上。</p>
 
       
     </div>
